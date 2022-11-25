@@ -1,0 +1,91 @@
+.basket {
+  display: flex;
+  align-items: center;
+}
+
+.basket__list {
+  width: 500px;
+  min-height: 250px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-right: 250px;
+}
+
+.basket__item {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.basket__title {
+  font-size: 25px;
+  width: 100px;
+  margin-bottom: 0 !important;
+}
+
+.basket__wrapper {
+  padding: 0 8px;
+  border: 1px solid black;
+  border-radius: 23px;
+}
+
+.basket__btn {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.basket__quantity {
+  margin: 0 15px;
+  font-size: 22px;
+}
+
+
+
+.basket__icon {
+  svg {
+    width: 20px;
+    height: 20px;
+    color: grey;
+  }
+}
+
+.basket__icon-plus {
+  svg {
+    color: red;
+  }
+}
+
+.basket__remove {
+  border: none;
+  padding: 0;
+}
+
+.basket__remove-icon {
+  svg {
+    width: 18px;
+    height: 18px;
+    color: red;
+  }
+}
+
+.basket__total {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  h3 {
+    margin: 0;
+  }
+}
+
+.basket__total-price {
+  font-weight: 500;
+  font-size: 22px;
+  margin: 0 !important;
+
+}

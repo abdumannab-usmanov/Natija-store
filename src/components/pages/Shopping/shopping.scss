@@ -1,0 +1,49 @@
+.shop__img {
+  width: 200px;
+  object-fit: fill;
+  height: 200px;
+  margin: 10px auto;
+}
+
+.shop__title {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.shop__quantity {
+  margin: 0 !important;
+  text-align: center;
+  color: gray;
+}
+
+.shop__price {
+  color: gray;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 10px !important;
+}
+
+.shop__wrapper-btn {
+  display: flex;
+  justify-content: end;
+  margin: 0;
+}
+
+
+
+.shop__btn-favorite {
+  width: 30px;
+  height: 30px;
+  border: none;
+  margin-left: 20px;
+  background-color: transparent;
+}
+
+
+.shop__icon {
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+}
